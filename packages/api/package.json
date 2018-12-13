@@ -1,0 +1,30 @@
+{
+	"name": "api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon .",
+		"start": "wait-for-it -t 30 $MONGO_HOST:$MONGO_PORT && wait-for-it -t 30 $REDIS_HOST:$REDIS_PORT && node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"apollo-server-express": "^2.2.7",
+		"body-parser": "^1.18.3",
+		"connect-redis": "^3.4.0",
+		"cookie-parser": "^1.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^6.2.0",
+		"express": "^4.16.4",
+		"express-session": "^1.15.6",
+		"graphql": "^14.0.2",
+		"graphql-tools": "^4.0.3",
+		"mongodb": "^3.1.10",
+		"morgan": "^1.9.1",
+		"node-wait-for-it": "^0.2.0",
+		"passport": "^0.4.0",
+		"passport-jwt": "^4.0.0"
+	}
+}

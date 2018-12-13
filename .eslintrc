@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "no-console": "off",
+        "implicit-arrow-linebreak": "off",
+        "no-tabs": "off",
+        "indent": ["error", "tab"],
+        "consistent-return": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-indent": ["error", "tab"],
+        "jsx-a11y/anchor-is-valid": "off",
+        "no-underscore-dangle": "off"
+    }
+}
